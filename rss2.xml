@@ -9,13 +9,13 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>心之所向，素履以往；&lt;br&gt;生如逆旅，一苇以航。</description>
-    <pubDate>Tue, 20 Dec 2022 11:30:51 GMT</pubDate>
+    <pubDate>Tue, 20 Dec 2022 11:32:29 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
       <title>建设体系化的SOC（安全运营中心）</title>
-      <link>http://example.com/2022/12/13/Test-Article-2%EF%BC%9A%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A02/</link>
-      <guid>http://example.com/2022/12/13/Test-Article-2%EF%BC%9A%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A02/</guid>
+      <link>http://example.com/2022/12/13/%E5%BB%BA%E8%AE%BE%E4%BD%93%E7%B3%BB%E5%8C%96%E7%9A%84SOC%EF%BC%88%E5%AE%89%E5%85%A8%E8%BF%90%E8%90%A5%E4%B8%AD%E5%BF%83%EF%BC%89/</link>
+      <guid>http://example.com/2022/12/13/%E5%BB%BA%E8%AE%BE%E4%BD%93%E7%B3%BB%E5%8C%96%E7%9A%84SOC%EF%BC%88%E5%AE%89%E5%85%A8%E8%BF%90%E8%90%A5%E4%B8%AD%E5%BF%83%EF%BC%89/</guid>
       <pubDate>Tue, 13 Dec 2022 07:14:15 GMT</pubDate>
       
         
@@ -34,7 +34,7 @@
       <category domain="http://example.com/tags/SOC%E5%BB%BA%E8%AE%BE/">SOC建设</category>
       
       
-      <comments>http://example.com/2022/12/13/Test-Article-2%EF%BC%9A%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A02/#disqus_thread</comments>
+      <comments>http://example.com/2022/12/13/%E5%BB%BA%E8%AE%BE%E4%BD%93%E7%B3%BB%E5%8C%96%E7%9A%84SOC%EF%BC%88%E5%AE%89%E5%85%A8%E8%BF%90%E8%90%A5%E4%B8%AD%E5%BF%83%EF%BC%89/#disqus_thread</comments>
       
     </item>
     
