@@ -131,6 +131,16 @@
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
   </nav>
 </div>
   <div class="links-of-author animated">
@@ -186,7 +196,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/12/13/Test-Article-2%EF%BC%9A%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A02/" class="post-title-link" itemprop="url">Test Article测试文章</a>
+          <a href="/2022/12/13/Test-Article-2%EF%BC%9A%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A02/" class="post-title-link" itemprop="url">建设体系化的SOC（安全运营中心）</a>
         </h2>
 
         <div class="post-meta-container">
@@ -199,6 +209,15 @@
 
       <time title="创建时间：2022-12-13 15:14:15" itemprop="dateCreated datePublished" datetime="2022-12-13T15:14:15+08:00">2022-12-13</time>
     </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/cyberspace-security/" itemprop="url" rel="index"><span itemprop="name">网络安全</span></a>
+        </span>
+    </span>
 
   
 </div>
@@ -210,7 +229,90 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p>Hi there, welcome to Leah’s blog. This is a test article created by leah on Dec 13th, 2022.<br><br>欢迎来到恩木的博客，这是一篇测试文章。</p>
+          <p>#####定义：<br>SOC，即Security Operations Center，安全运营中心，主要负责企业的入侵检测、应急响应、安全监控等入侵防御体系的建设。通常会笼统概括成两个方面，即Blue Team（Defensive Security）和Red Team（Offensive Security）。</p>
+<p>#####如何组建SOC：</p>
+<ol>
+<li>理论基础<ul>
+<li>应急响应处理流程<ul>
+<li>评估</li>
+<li>控制</li>
+<li>消除</li>
+<li>恢复</li>
+<li>总结</li>
+</ul>
+</li>
+<li>Cyber Attack Life Cycle<ul>
+<li>Recon侦查</li>
+<li>Weaponize工具化</li>
+<li>Deliver投送</li>
+<li>Exploit攻击利用</li>
+<li>Control控制</li>
+<li>Execute执行</li>
+<li>Maintain持久化</li>
+</ul>
+</li>
+<li>MITRE ATT&amp;CK</li>
+</ul>
+</li>
+<li>平台与工具<ul>
+<li>平台<ul>
+<li>SIEM-日志收集平台</li>
+<li>TDP-威胁检测平台</li>
+<li>IDP-IOC检测平台</li>
+<li>ITP-安全事件追踪与记录平台</li>
+</ul>
+</li>
+<li>工具<ul>
+<li>域名与IP检测</li>
+<li>URL检测</li>
+<li>TOR节点检测</li>
+<li>在线恶意文件检测</li>
+<li>动态恶意文件检测</li>
+<li>邮件检测</li>
+<li>…</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<p>#####SOC如何工作：</p>
+<ul>
+<li>SOC的组织架构<ul>
+<li>SOC运营中心<ul>
+<li>Blue Team<ol>
+<li>Incident Response-应急响应（Tier1）</li>
+<li>Malware Analysis-病毒分析（Tier2）</li>
+<li>Digital Forensics-电子取证（Tier2）</li>
+<li>Detection &amp; Monitoring-检测与监控（Tier2）</li>
+<li>Vulnerability Management-漏洞管理（Tier2）</li>
+</ol>
+</li>
+<li>Red Team<ol>
+<li>Threat Intelligence-威胁情报（Tier3）</li>
+<li>Threat Hunting-威胁猎杀（Tier3）</li>
+<li>Penetration Testing-渗透测试（Tier3）</li>
+<li>Red Teaming-红队行动（Tier3）</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>SOC的职责划分<ul>
+<li>Tier1：负责直接应对和协调处理企业各种安全事件</li>
+<li>Tier2：为Tier1团队提供技术支持</li>
+<li>Tier3：站在攻击者的角度主动检验当前已有的入侵检测和防御能力</li>
+</ul>
+</li>
+<li>SOC的有效协作<ul>
+<li>被动应急与响应</li>
+<li>主动监测与响应</li>
+<li>威胁情报分析与利用</li>
+<li>红队行动实践</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>本文整理自《谈谈如何建设体系化的安全运营中心（SOC）》by安全小飞侠</p>
 
       
     </div>
