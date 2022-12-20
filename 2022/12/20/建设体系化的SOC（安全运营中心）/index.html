@@ -19,25 +19,25 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.14.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="#####定义：SOC，即Security Operations Center，安全运营中心，主要负责企业的入侵检测、应急响应、安全监控等入侵防御体系的建设。通常会笼统概括成两个方面，即Blue Team（Defensive Security）和Red Team（Offensive Security）。 #####如何组建SOC：  理论基础 应急响应处理流程 评估 控制 消除 恢复 总结   C">
+    <meta name="description" content="定义：SOC，即Security Operations Center，安全运营中心，主要负责企业的入侵检测、应急响应、安全监控等入侵防御体系的建设。通常会笼统概括成两个方面，即Blue Team（Defensive Security）和Red Team（Offensive Security）。 如何组建SOC： 理论基础 应急响应处理流程 评估 控制 消除 恢复 总结   Cyber Attack">
 <meta property="og:type" content="article">
 <meta property="og:title" content="建设体系化的SOC（安全运营中心）">
-<meta property="og:url" content="http://example.com/2022/12/13/%E5%BB%BA%E8%AE%BE%E4%BD%93%E7%B3%BB%E5%8C%96%E7%9A%84SOC%EF%BC%88%E5%AE%89%E5%85%A8%E8%BF%90%E8%90%A5%E4%B8%AD%E5%BF%83%EF%BC%89/index.html">
+<meta property="og:url" content="http://example.com/2022/12/20/%E5%BB%BA%E8%AE%BE%E4%BD%93%E7%B3%BB%E5%8C%96%E7%9A%84SOC%EF%BC%88%E5%AE%89%E5%85%A8%E8%BF%90%E8%90%A5%E4%B8%AD%E5%BF%83%EF%BC%89/index.html">
 <meta property="og:site_name" content="恩木的时光之旅">
-<meta property="og:description" content="#####定义：SOC，即Security Operations Center，安全运营中心，主要负责企业的入侵检测、应急响应、安全监控等入侵防御体系的建设。通常会笼统概括成两个方面，即Blue Team（Defensive Security）和Red Team（Offensive Security）。 #####如何组建SOC：  理论基础 应急响应处理流程 评估 控制 消除 恢复 总结   C">
+<meta property="og:description" content="定义：SOC，即Security Operations Center，安全运营中心，主要负责企业的入侵检测、应急响应、安全监控等入侵防御体系的建设。通常会笼统概括成两个方面，即Blue Team（Defensive Security）和Red Team（Offensive Security）。 如何组建SOC： 理论基础 应急响应处理流程 评估 控制 消除 恢复 总结   Cyber Attack">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-12-13T07:14:15.000Z">
-<meta property="article:modified_time" content="2022-12-20T11:32:29.385Z">
+<meta property="article:published_time" content="2022-12-20T11:44:46.000Z">
+<meta property="article:modified_time" content="2022-12-20T11:51:20.418Z">
 <meta property="article:author" content="Leah">
 <meta property="article:tag" content="SOC建设">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://example.com/2022/12/13/%E5%BB%BA%E8%AE%BE%E4%BD%93%E7%B3%BB%E5%8C%96%E7%9A%84SOC%EF%BC%88%E5%AE%89%E5%85%A8%E8%BF%90%E8%90%A5%E4%B8%AD%E5%BF%83%EF%BC%89/">
+<link rel="canonical" href="http://example.com/2022/12/20/%E5%BB%BA%E8%AE%BE%E4%BD%93%E7%B3%BB%E5%8C%96%E7%9A%84SOC%EF%BC%88%E5%AE%89%E5%85%A8%E8%BF%90%E8%90%A5%E4%B8%AD%E5%BF%83%EF%BC%89/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/2022/12/13/%E5%BB%BA%E8%AE%BE%E4%BD%93%E7%B3%BB%E5%8C%96%E7%9A%84SOC%EF%BC%88%E5%AE%89%E5%85%A8%E8%BF%90%E8%90%A5%E4%B8%AD%E5%BF%83%EF%BC%89/","path":"2022/12/13/建设体系化的SOC（安全运营中心）/","title":"建设体系化的SOC（安全运营中心）"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/2022/12/20/%E5%BB%BA%E8%AE%BE%E4%BD%93%E7%B3%BB%E5%8C%96%E7%9A%84SOC%EF%BC%88%E5%AE%89%E5%85%A8%E8%BF%90%E8%90%A5%E4%B8%AD%E5%BF%83%EF%BC%89/","path":"2022/12/20/建设体系化的SOC（安全运营中心）/","title":"建设体系化的SOC（安全运营中心）"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
 <title>建设体系化的SOC（安全运营中心） | 恩木的时光之旅</title>
@@ -103,7 +103,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -116,6 +116,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AE%9A%E4%B9%89%EF%BC%9A"><span class="nav-number">1.</span> <span class="nav-text">定义：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E7%BB%84%E5%BB%BASOC%EF%BC%9A"><span class="nav-number">2.</span> <span class="nav-text">如何组建SOC：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#SOC%E5%A6%82%E4%BD%95%E5%B7%A5%E4%BD%9C%EF%BC%9A"><span class="nav-number">3.</span> <span class="nav-text">SOC如何工作：</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -182,7 +183,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/12/13/%E5%BB%BA%E8%AE%BE%E4%BD%93%E7%B3%BB%E5%8C%96%E7%9A%84SOC%EF%BC%88%E5%AE%89%E5%85%A8%E8%BF%90%E8%90%A5%E4%B8%AD%E5%BF%83%EF%BC%89/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/12/20/%E5%BB%BA%E8%AE%BE%E4%BD%93%E7%B3%BB%E5%8C%96%E7%9A%84SOC%EF%BC%88%E5%AE%89%E5%85%A8%E8%BF%90%E8%90%A5%E4%B8%AD%E5%BF%83%EF%BC%89/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -211,7 +212,7 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2022-12-13 15:14:15" itemprop="dateCreated datePublished" datetime="2022-12-13T15:14:15+08:00">2022-12-13</time>
+      <time title="创建时间：2022-12-20 19:44:46" itemprop="dateCreated datePublished" datetime="2022-12-20T19:44:46+08:00">2022-12-20</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -233,9 +234,8 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <p>#####定义：<br>SOC，即Security Operations Center，安全运营中心，主要负责企业的入侵检测、应急响应、安全监控等入侵防御体系的建设。通常会笼统概括成两个方面，即Blue Team（Defensive Security）和Red Team（Offensive Security）。</p>
-<p>#####如何组建SOC：</p>
-<ol>
+        <h4 id="定义："><a href="#定义：" class="headerlink" title="定义："></a><strong>定义：</strong></h4><p>SOC，即Security Operations Center，安全运营中心，主要负责企业的入侵检测、应急响应、安全监控等入侵防御体系的建设。通常会笼统概括成两个方面，即Blue Team（Defensive Security）和Red Team（Offensive Security）。</p>
+<h4 id="如何组建SOC："><a href="#如何组建SOC：" class="headerlink" title="如何组建SOC："></a><strong>如何组建SOC：</strong></h4><ol>
 <li>理论基础<ul>
 <li>应急响应处理流程<ul>
 <li>评估</li>
@@ -279,8 +279,7 @@
 </ul>
 </li>
 </ol>
-<p>#####SOC如何工作：</p>
-<ul>
+<h4 id="SOC如何工作："><a href="#SOC如何工作：" class="headerlink" title="SOC如何工作："></a><strong>SOC如何工作：</strong></h4><ul>
 <li>SOC的组织架构<ul>
 <li>SOC运营中心<ul>
 <li>Blue Team<ol>
