@@ -1,6 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>《数说安全-2019年中国网络安全创投市场年度报告》摘录</title>
+    <url>/2022/12/23/%E3%80%8A%E6%95%B0%E8%AF%B4%E5%AE%89%E5%85%A8-2019%E5%B9%B4%E4%B8%AD%E5%9B%BD%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E5%88%9B%E6%8A%95%E5%B8%82%E5%9C%BA%E5%B9%B4%E5%BA%A6%E6%8A%A5%E5%91%8A%E3%80%8B%E6%91%98%E5%BD%95/</url>
+    <content><![CDATA[<h5 id="工控安全"><a href="#工控安全" class="headerlink" title="工控安全"></a>工控安全</h5><p>工控安全企业，主要类型分为三种：</p>
+<ul>
+<li>第一类是具备工控系统背景、以工业生产为主业的国企或大型民营企业，对工控系统整体业务逻辑有深入的理解，对工控安全防护有迫切的内生需求，研发符合自身技术需要的专用型工控产品和方案；</li>
+<li>第二类是传统的综合型网络安全企业，网络安全综合技术和解决方案能力较强，研发通用型工控产品，其潜在客户也是其目前传统网络安全产品的使用者，在营销端和交付端优势突出，但这些企业对工控方向的专注度不一致，重视程度和投入有限；<span id="more"></span></li>
+<li>第三类是专业型工控安全企业，工控安全产品是其主营业务，同时具备网络安全技术和工控系统业务的综合能力，但这类企业多为初创型公司，公司规模相对较小，整体竞争力偏弱，在营销端能力和客户覆盖上存在一定不足。 </li>
+<li>融资情况：<strong>威努特</strong> C 轮融资额达到数亿元，<strong>天地合兴</strong>获得 2 亿元 C+轮投资，<strong>博智安全</strong>完成 1.5 亿元 C 轮融资。</li>
+</ul>
+<h5 id="业务安全"><a href="#业务安全" class="headerlink" title="业务安全"></a>业务安全</h5><ul>
+<li>国内主流的业务安全产品一般基于大数据技术、深度学习技术，以反欺诈和风控作为场景入口，通过系统+策略+数据的产品矩阵帮助企业建立风控中台，目前主要服务于互联网、金融领域。</li>
+<li>产品的核心部分是决策引擎，一般是一个包含监测、验证、数据、策略功能的风险管理系统，提供全景实时反欺诈、大数据信用风控和毫秒级实时决策。</li>
+<li>由于业务安全领域对于产品技术创新以及对于客户业务的理解都有很高要求，所以国内该领域创业公司往往需要大量融资来支撑公司运营发展，是网络安全行业最烧钱的细分领域。</li>
+<li>融资情况：<strong>邦盛科技</strong>、<strong>冰鉴科技</strong>、<strong>维泽科技</strong>都已获得后续融资，融资轮次已达 C 轮及以后，行业分水岭已清晰可见。</li>
+</ul>
+<h5 id="数据安全"><a href="#数据安全" class="headerlink" title="数据安全"></a>数据安全</h5><p>产品类型和技术方向主要氛围4种：</p>
+<ul>
+<li>数据库安全方向产品，如<ul>
+<li>数据库审计</li>
+<li>数据库防火墙</li>
+<li>数据库脱敏</li>
+<li>盒式产品，代表厂商：<strong>安华金和</strong>、<strong>美创科技</strong>、<strong>中安威士</strong></li>
+</ul>
+</li>
+<li>数据防泄漏方向产品，如<ul>
+<li>主机数据防泄漏</li>
+<li>网络数据防泄漏</li>
+<li>代表厂商：<strong>天空卫士</strong>、<strong>思睿嘉得</strong></li>
+</ul>
+</li>
+<li>数据加密方向产品，如<ul>
+<li>电子文档加密</li>
+<li>磁盘&#x2F;存储介质加密</li>
+<li>应用加密</li>
+<li>代表厂商：<strong>亿赛通</strong>、<strong>华途软件</strong></li>
+</ul>
+</li>
+<li>数据合规与治理方向产品，如<ul>
+<li>敏感数据发现</li>
+<li>数据分级</li>
+<li>数据脱敏</li>
+<li>数据清理</li>
+<li>代表厂商：<strong>全知科技</strong>、<strong>世平信息</strong></li>
+</ul>
+</li>
+</ul>
+<h5 id="身份与访问管理"><a href="#身份与访问管理" class="headerlink" title="身份与访问管理"></a>身份与访问管理</h5><ul>
+<li>产品特点<ul>
+<li>不仅仅是传统意义上的安全产品，它是打通信息孤岛、实现企业内部智能连接和管理不同类型应用系统的“<strong>平台级系统</strong>”，是一套为一切连接提供安全保护的身份治理体系。</li>
+<li>以“人”为核心，连接各种“应用”，高效支撑用户在面对内部员工、外部合作伙伴、以及外部用户等不同人员维度的业务场景，实现<strong>对不同用户访问行为的统一风险管控与合规审计</strong>。</li>
+<li>通过 IAM 平台上的<strong>智能风险引擎</strong>，自动感知风险和自适应地动态调度平台上已融合的各种主流安全认证工具，实现对系统访问权限的<strong>事前预警、事中控制和事后审计追溯</strong>。</li>
+</ul>
+</li>
+<li>代表厂商<ul>
+<li>头部创业公司：<strong>芯盾时代</strong>、<strong>竹云科技</strong>、<strong>派拉软件</strong></li>
+<li>被收购厂商：阿里云收购<strong>九州云腾</strong></li>
+</ul>
+</li>
+</ul>
+<h5 id="威胁管理与分析"><a href="#威胁管理与分析" class="headerlink" title="威胁管理与分析"></a>威胁管理与分析</h5><ul>
+<li>威胁检测与分析方向产品<ul>
+<li>高级持续性威胁 APT </li>
+<li>沙箱</li>
+</ul>
+</li>
+<li>威胁猎捕方向产品<ul>
+<li>蜜罐产品</li>
+</ul>
+</li>
+<li>威胁情报与攻击溯源方向<ul>
+<li>威胁情报大数据平台</li>
+</ul>
+</li>
+<li>代表厂商<ul>
+<li><strong>微步在线</strong>：以威胁情报服务为中心，4 轮融资总额超过 2 亿元</li>
+<li><strong>中睿天下</strong>：威胁检测与攻击溯源，8000 万 A+轮融资</li>
+<li><strong>东巽科技</strong>：专注于高级持续性威胁（APT）防护，获数千万 A+轮投资</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>读书笔记</category>
+        <category>网络安全</category>
+      </categories>
+      <tags>
+        <tag>报告</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>建设体系化的SOC（安全运营中心）</title>
     <url>/2022/12/20/%E5%BB%BA%E8%AE%BE%E4%BD%93%E7%B3%BB%E5%8C%96%E7%9A%84SOC%EF%BC%88%E5%AE%89%E5%85%A8%E8%BF%90%E8%90%A5%E4%B8%AD%E5%BF%83%EF%BC%89/</url>
     <content><![CDATA[<h4 id="定义："><a href="#定义：" class="headerlink" title="定义："></a><strong>定义：</strong></h4><p>SOC，即Security Operations Center，安全运营中心，主要负责企业的入侵检测、应急响应、安全监控等入侵防御体系的建设。通常会笼统概括成两个方面，即Blue Team（Defensive Security）和Red Team（Offensive Security）。<span id="more"></span></p>
